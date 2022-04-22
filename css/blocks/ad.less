@@ -1,0 +1,107 @@
+//  main: ../style.less
+
+.ad{
+    margin-top: 6.66rem;
+    margin-top: 3.3rem;
+    height: 690px;
+    
+}
+.ad__conteiner{
+    display: flex;
+    justify-content: space-between;
+    height: 735px;
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        // bottom: -16rem;
+        bottom: 0;
+        right: 0;
+        width: 95%;
+        height: 1px;
+        background: #9F9F9F;
+
+    }
+    &::before{
+        content: '2021';
+        position: absolute;
+        // bottom: -16.4rem;
+        bottom: -5px;
+        left: 10px;
+        color: #9F9F9F;
+
+    }
+}
+.ad__title{
+    font-size: 7.86rem;
+    color: @black;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.ad__subtitle{
+    width: 389px;
+    font-size: 1.2rem;
+    margin-bottom: 1.33rem;
+}
+.buttons__brend{
+    display: flex;
+    margin-bottom: 4rem;
+}
+.brand{
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 9px 12px;
+    margin-right: 0.9rem;
+    background: #E3E3E3;
+    gap: 10px;
+    border-radius: 7px;
+    transition: .5s;
+    &:hover{
+        background: @black;
+        color: @white;
+    }
+}
+.text__ad{
+    margin-top: 10rem;
+    padding-left: 1rem;
+    z-index: 10;
+}
+.photo__ad{
+    position: relative;
+    // margin-left: -10rem;
+}
+.brend__photo{
+    position: absolute;
+    top: 0;
+    right: 1rem;
+}
+.case{
+    align-items: center;
+    padding: 14px;
+    padding-left: 19px;
+    padding-right: 50px;
+    position: relative;
+    color: @black;
+    width: 160px;
+    height: 48px;
+    gap: 13px;
+    border: 1px solid @black;
+    border-radius: 22px;
+    font-size: 1.1rem;
+    transition: .3s;
+    &:hover{
+        background: rgba(204, 204, 204, 0.6);
+    }
+}
+.arrow2{
+    position: absolute;
+    right: 23px;
+    top: 19px;
+}
+.two{
+    top: 78px;
+    right: 0rem;
+}
+.three{
+    top: 100px;
+}

@@ -10,7 +10,9 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-
+div{
+    cursor: default;
+}
 :focus, :active {
     outline: none;
 }
@@ -24,6 +26,7 @@ nav, footer, header, aside {
 }
 
 html, body {
+    min-height: 3000px;
     background: #F0F0F0;
     height: 100%;
     width: 100%;
@@ -83,6 +86,31 @@ h1, h2, h3, h4, h5, h6 {
 .flex{
     display: flex;
 }
+.progect{
+    margin-top: 6rem;
+    height: 65px;
+}
+.proj{
+    width: 100%;
+    border-radius: 22px;
+    background: @black;
+    padding: 21px 0;
+    text-align: center;
+    transition: .3s;
+    &:hover{
+        background: rgb(92, 92, 92);
+    }
+}
+.btn__text{
+    font-size: 1.2rem;
+    color: @white;
+    position: relative;
+}
+.project__arrow{
+    position: absolute;
+    right: 43%;
+    top: 25%;
+}
 
 
 @black:#1C1D1F;
@@ -92,3 +120,6 @@ h1, h2, h3, h4, h5, h6 {
 
 @import 'blocks/header.less';
 @import 'blocks/main.less';
+@import 'blocks/about.less';
+@import 'blocks/ad.less';
+

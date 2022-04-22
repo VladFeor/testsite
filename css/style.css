@@ -12,6 +12,9 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+div {
+  cursor: default;
+}
 :focus,
 :active {
   outline: none;
@@ -28,6 +31,7 @@ aside {
 }
 html,
 body {
+  min-height: 3000px;
   background: #F0F0F0;
   height: 100%;
   width: 100%;
@@ -83,6 +87,31 @@ h6 {
 }
 .flex {
   display: flex;
+}
+.progect {
+  margin-top: 6rem;
+  height: 65px;
+}
+.proj {
+  width: 100%;
+  border-radius: 22px;
+  background: #1C1D1F;
+  padding: 21px 0;
+  text-align: center;
+  transition: 0.3s;
+}
+.proj:hover {
+  background: #5c5c5c;
+}
+.btn__text {
+  font-size: 1.2rem;
+  color: #FCFCFF;
+  position: relative;
+}
+.project__arrow {
+  position: absolute;
+  right: 43%;
+  top: 25%;
 }
 .header {
   width: 100%;
@@ -198,4 +227,156 @@ h6 {
   font-weight: 600;
   font-size: 0.9rem;
   color: #1C1D1F;
+}
+.about {
+  width: 100%;
+  height: 753px;
+  background: #1C1D1F;
+}
+.about__content {
+  padding-top: 5.26rem;
+}
+.about__title {
+  color: #FCFCFF;
+  font-size: 4.8rem;
+  letter-spacing: -0.24rem;
+  margin-bottom: 8rem;
+}
+.about__blocks {
+  display: flex;
+  justify-content: space-between;
+}
+.character__title {
+  margin-top: 1.2rem;
+  margin-bottom: 1.6rem;
+  font-size: 1.6rem;
+  color: #FCFCFF;
+  font-weight: 600;
+}
+.character__text {
+  width: 292px;
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  color: #FCFCFF;
+}
+.moretop {
+  margin-top: 3.46rem;
+}
+.selected__button {
+  margin: 0 auto;
+  max-width: 653px;
+  margin-top: 3rem;
+  color: #5125FF;
+  border: 1px solid #1C1D1F;
+  font-size: 4.8rem;
+  letter-spacing: -0.24rem;
+  padding: 24px 34px;
+  padding-left: 100px;
+  position: relative;
+  border-radius: 50px ;
+  cursor: default;
+}
+.photo__selec {
+  position: absolute;
+  top: 50px;
+  left: 45px;
+}
+.ad {
+  margin-top: 6.66rem;
+  margin-top: 3.3rem;
+  height: 690px;
+}
+.ad__conteiner {
+  display: flex;
+  justify-content: space-between;
+  height: 735px;
+  position: relative;
+}
+.ad__conteiner::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 95%;
+  height: 1px;
+  background: #9F9F9F;
+}
+.ad__conteiner::before {
+  content: '2021';
+  position: absolute;
+  bottom: -5px;
+  left: 10px;
+  color: #9F9F9F;
+}
+.ad__title {
+  font-size: 7.86rem;
+  color: #1C1D1F;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.ad__subtitle {
+  width: 389px;
+  font-size: 1.2rem;
+  margin-bottom: 1.33rem;
+}
+.buttons__brend {
+  display: flex;
+  margin-bottom: 4rem;
+}
+.brand {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 9px 12px;
+  margin-right: 0.9rem;
+  background: #E3E3E3;
+  gap: 10px;
+  border-radius: 7px;
+  transition: 0.5s;
+}
+.brand:hover {
+  background: #1C1D1F;
+  color: #FCFCFF;
+}
+.text__ad {
+  margin-top: 10rem;
+  padding-left: 1rem;
+  z-index: 10;
+}
+.photo__ad {
+  position: relative;
+}
+.brend__photo {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+}
+.case {
+  align-items: center;
+  padding: 14px;
+  padding-left: 19px;
+  padding-right: 50px;
+  position: relative;
+  color: #1C1D1F;
+  width: 160px;
+  height: 48px;
+  gap: 13px;
+  border: 1px solid #1C1D1F;
+  border-radius: 22px;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+.case:hover {
+  background: rgba(204, 204, 204, 0.6);
+}
+.arrow2 {
+  position: absolute;
+  right: 23px;
+  top: 19px;
+}
+.two {
+  top: 78px;
+  right: 0rem;
+}
+.three {
+  top: 100px;
 }
