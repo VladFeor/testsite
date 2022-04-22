@@ -103,6 +103,9 @@ h6 {
 .proj:hover {
   background: #5c5c5c;
 }
+.proj:hover .project__arrow {
+  right: 42%;
+}
 .btn__text {
   font-size: 1.2rem;
   color: #FCFCFF;
@@ -112,6 +115,7 @@ h6 {
   position: absolute;
   right: 43%;
   top: 25%;
+  transition: 0.3s;
 }
 .header {
   width: 100%;
@@ -368,10 +372,14 @@ h6 {
 .case:hover {
   background: rgba(204, 204, 204, 0.6);
 }
+.case:hover .arrow2 {
+  right: 18px;
+}
 .arrow2 {
   position: absolute;
   right: 23px;
   top: 19px;
+  transition: 0.3s;
 }
 .two {
   top: 78px;
