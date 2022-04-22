@@ -1,0 +1,58 @@
+//  main: ../style.less
+
+
+
+.header{
+    width: 100%;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.33rem 0;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 700;
+    color: @black;
+}
+.rigth__content{
+    display: flex;
+}
+.bnt__nav{
+    padding: 12.5px 28.5px;
+    color: @white;
+    font-size: 1.2rem;
+    border: 1px solid @black;
+    border-radius: 22px;
+    background: @blue;
+    margin-right: 1rem;
+    transition: .3s;
+    &:hover{
+        background: #915eff;
+    }
+}
+.burger__nav{
+    width: 70px;
+    height: 48px;
+    border: 1px solid @black;
+    border-radius: 22px;
+    position: relative;
+    transition: .3s;
+    &:hover{
+        background: rgba(204, 204, 204, 0.6);
+    }
+    &::after,&::before{
+        content: '';
+        width: 30px;
+        height: 1.5px;
+        position: absolute;
+        top: 17px;
+        left: 20px;
+        background: @black;
+        transition: .3s;
+    }
+    &::before{
+        top: 27px;
+    }
+    
+}
