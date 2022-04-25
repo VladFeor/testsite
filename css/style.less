@@ -85,6 +85,13 @@ h1, h2, h3, h4, h5, h6 {
     &--more{
         max-width: 1280px;
     }
+    &--footer{
+        position: relative;
+        min-width: 1300px;
+    }
+}
+.relative{
+    position: relative;
 }
 .flex{
     display: flex;
@@ -118,6 +125,10 @@ h1, h2, h3, h4, h5, h6 {
     top: 25%;
     transition: .3s;
 }
+.noscroll{
+    overflow: hidden;
+    background: #2C3B5840;
+}
 
 
 @black:#1C1D1F;
@@ -132,6 +143,7 @@ h1, h2, h3, h4, h5, h6 {
 @import 'blocks/technology.less';
 @import 'blocks/team.less';
 @import 'blocks/commentary.less';
+@import 'blocks/footer.less';
 
 
 .hiden{
