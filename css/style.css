@@ -31,7 +31,7 @@ aside {
 }
 html,
 body {
-  min-height: 3000px;
+  overflow-x: hidden;
   background: #F0F0F0;
   height: 100%;
   width: 100%;
@@ -91,6 +91,9 @@ h6 {
 .conteiner--footer {
   position: relative;
   min-width: 1300px;
+}
+.conteiner--stuff {
+  max-width: 640px;
 }
 .relative {
   position: relative;
@@ -231,6 +234,9 @@ h6 {
   padding-top: 10rem;
   height: 90vh;
 }
+.main--less {
+  height: 1500px;
+}
 .main__content {
   display: flex;
   justify-content: space-between;
@@ -361,6 +367,21 @@ h6 {
 }
 .two__news__photo {
   padding-top: 5rem;
+}
+.price__person {
+  display: flex;
+  font-weight: 500;
+  font-weight: 1.2rem;
+  color: #1C1D1F;
+  align-items: center;
+}
+.price__person > img {
+  margin-right: 1rem;
+}
+.prise__photo {
+  position: absolute;
+  left: 19rem;
+  top: 3rem;
 }
 .about {
   width: 100%;
@@ -518,6 +539,32 @@ h6 {
 .three {
   top: 100px;
 }
+.stuff__filter {
+  margin-top: 6rem;
+}
+.filter__text {
+  font-size: 1.66rem;
+  margin-bottom: 1.8rem;
+  color: #1C1D1F;
+  text-align: center;
+}
+.stuff__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.filter {
+  background: #F0F0F0;
+  color: #1C1D1F;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 16px 10px;
+  transition: 0.3s;
+}
+.filter:hover {
+  background: #1C1D1F;
+  color: #FCFCFF;
+}
 .technology {
   margin-top: 16.66rem;
 }
@@ -536,6 +583,11 @@ h6 {
   color: #1C1D1F;
   margin-bottom: 2rem;
 }
+.title__technology--less {
+  font-size: 3.2rem;
+  margin: 0 auto;
+  width: 843px;
+}
 .subtitle__technology {
   width: 395px;
   font-size: 1.1rem;
@@ -552,6 +604,9 @@ h6 {
   width: 35.53rem;
   margin-bottom: 3rem;
   line-height: 1.2rem;
+}
+.subtitle__technology--price {
+  width: 593px;
 }
 .bloks__technology {
   display: flex;
@@ -708,6 +763,94 @@ h6 {
   position: absolute;
   top: 32px;
   right: 37px;
+}
+.teams__every {
+  margin-top: 11.86rem;
+}
+.teams__every__conteiner {
+  text-align: center;
+}
+.team__title {
+  font-size: 4.8rem;
+  font-weight: 600;
+  color: #1C1D1F;
+  margin-bottom: 1.6rem;
+}
+.team__subtitle {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #1C1D1F;
+  margin-bottom: 8.66rem;
+}
+.team__every__block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.person_every {
+  width: 242px;
+}
+.person_every > img {
+  margin-bottom: 0.66rem;
+}
+.person_every--mb11 {
+  margin-bottom: 11.33rem;
+}
+.person_every:hover .person_every__name {
+  color: #5125FF;
+}
+.person_every:hover .block__blue {
+  opacity: 1;
+}
+.person__every__photo {
+  position: relative;
+}
+.photo__pers {
+  margin-bottom: 0.66rem;
+  position: relative;
+}
+.block__blue {
+  width: 100%;
+  height: 68px;
+  background: #5125FF;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  padding: 12px 33px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0;
+  transition: 0.3s;
+}
+.block__blue > img {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+.social__tem {
+  position: relative;
+}
+.mail {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+}
+.person_every__name {
+  font-weight: 600;
+  line-height: 40px;
+  font-size: 2.4rem;
+  color: #1C1D1F;
+  margin-bottom: 1.1rem;
+  text-align: start;
+  transition: 0.3s;
+}
+.person_every__info {
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  color: #1C1D1F;
+  text-align: start;
+  font-weight: 400;
 }
 .commentary__content {
   display: flex;
@@ -979,6 +1122,35 @@ h6 {
 }
 .button__inpur > img {
   padding-top: 3px;
+}
+.partners {
+  width: 100%;
+  height: 59.66rem;
+  background: #1C1D1F;
+  padding-top: 12.8rem;
+  justify-content: center;
+}
+.title__partners {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #FCFCFF;
+  width: 66.66rem;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+.block__part {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+.ul__block > li {
+  list-style: circle;
+  width: 382px;
+  font-size: 1.2rem;
+  color: #FCFCFF;
+}
+.ul__block:nth-child(1) {
+  margin-right: 2rem;
 }
 .hiden {
   display: none;

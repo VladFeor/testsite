@@ -113,3 +113,105 @@
         right: 37px;
     }
 }
+
+
+
+
+// EVERY 
+
+
+.teams__every{
+    margin-top: 11.86rem;
+}
+.teams__every__conteiner{
+    text-align: center;
+}
+.team__title{
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: @black;
+    margin-bottom: 1.6rem;
+}
+.team__subtitle{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: @black;
+    margin-bottom: 8.66rem;
+}
+.team__every__block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.person_every{
+    width: 242px;
+    
+    &>img{
+        margin-bottom: 0.66rem;
+    }
+    
+    &--mb11{
+        margin-bottom: 11.33rem;
+    }
+    &:hover{
+        .person_every__name{
+            color: @blue;
+        }
+        .block__blue{
+            opacity: 1;
+        }
+    }
+
+    
+}
+.person__every__photo{
+    position: relative;
+}
+.photo__pers{
+    margin-bottom: 0.66rem;
+    position: relative;
+    
+}
+.block__blue{
+    width: 100%;
+    height: 68px;
+    background: @blue;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    padding: 12px 33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0;
+    transition: .3s;
+    &>img{
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+    }
+}
+.social__tem{
+    position: relative;
+}
+.mail{
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+.person_every__name{
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 2.4rem;
+    color: @black;
+    margin-bottom: 1.1rem;
+    text-align: start;
+    transition: .3s;
+}
+.person_every__info{
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    color: @black;
+    text-align: start;
+    font-weight: 400;
+}

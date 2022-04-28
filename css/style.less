@@ -26,7 +26,7 @@ nav, footer, header, aside {
 }
 
 html, body {
-    min-height: 3000px;
+    overflow-x: hidden;
     background: #F0F0F0;
     height: 100%;
     width: 100%;
@@ -89,6 +89,9 @@ h1, h2, h3, h4, h5, h6 {
         position: relative;
         min-width: 1300px;
     }
+    &--stuff{
+        max-width: 640px;
+    }
 }
 .relative{
     position: relative;
@@ -144,6 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 @import 'blocks/team.less';
 @import 'blocks/commentary.less';
 @import 'blocks/footer.less';
+@import 'blocks/partners.less';
 
 
 .hiden{
