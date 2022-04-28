@@ -1,0 +1,165 @@
+//  main: ../style.less
+
+
+.main{
+    padding-top: 10rem;
+    height: 90vh;
+    &--less{
+       height: 1500px;
+    }
+    &--reg{
+        padding-top: 2rem;
+    }
+}
+.main__content{
+    display: flex;
+    justify-content: space-between;
+}
+.left__content--main{
+    margin-top: 11rem;
+}
+.main__title{
+    width: 590px;
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: @black;
+    margin-bottom: 0.9rem;
+}
+.main__title>span{
+    color: @blue;
+}
+.main__subtitle{
+    font-size: 1.33rem;
+    font-weight: 600;
+    margin-bottom: 3.6rem;
+}
+.main__button{
+    width: 173px;
+    height: 51px;
+    border-radius: 22px;
+    background: @black;
+    color: @white;
+    font-size: 1.2rem;
+    padding: 14px 32px;
+    padding-right: 61px;
+    position: relative;
+    transition: .3s;
+    &:hover{
+        background: rgb(114, 114, 114);
+    }
+    &:hover .arrow{
+        right: 25px;
+    }
+}
+.arrow{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: .3s;
+}
+.scroll{
+    margin-right: 8px;
+}
+.scroll__block{
+    display: flex;
+    margin-top: 11.4rem;
+    align-items: center;
+}
+.text__scroll{
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: @black;
+}
+
+
+
+// next
+
+.mt15{
+    margin-top: 4rem;
+}
+.news{
+    display: flex;
+    justify-content: center;
+}
+.text__news{
+    position: absolute;
+    left: 37px;
+    top: 45px;
+}
+.title__news{
+    font-size: 4.8rem;
+    font-weight: 600;
+    width: 34.6rem;
+    margin-bottom: 1.5rem;
+    color: @black;
+    &--hiden{
+        color: #FCFCFF;
+        position: absolute;
+        top: 45px;
+        left: -422px;
+    }
+}
+.sub__title__news{
+    width: 32.86rem;
+    font-size: 1.55rem;
+    color: @black;
+    margin-bottom: 2.7rem;
+    &--hiden{
+        color: #FCFCFF;
+        position: absolute;
+        top: 140px;
+        left: -422px;
+    }
+}
+.note__news{
+    width: 25.66rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: @black;
+}
+.text__absolute{
+    left: 0;
+    top: 45px;
+    color: @white;
+}
+.photo__news{
+    width: 702px;
+    height: 464px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 28rem;
+    background: url(img/monitor2.png) no-repeat center center;
+}
+.two__news{
+    margin-top: 9.66rem;
+    justify-content: space-between;
+}
+.two__news__text{
+    width: 36rem;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    color: @black;
+    &>p{
+        margin-top: 1rem;
+    }
+}
+.two__news__photo{
+    padding-top: 5rem;
+}
+.price__person{
+    display: flex;
+    font-weight: 500;
+    font-weight: 1.2rem;
+    color: @black;
+    align-items: center;
+    &>img{
+        margin-right: 1rem;
+    }
+}
+.prise__photo{
+    position: absolute;
+    left: 19rem;
+    top: 3rem;
+
+}
