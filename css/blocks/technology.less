@@ -2,6 +2,7 @@
 
 .technology{
     margin-top: 16.66rem;
+    margin-bottom: 10rem;
 }
 .technology__content{
     display: flex;
@@ -47,7 +48,18 @@
 }
 .bloks__technology{
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    overflow: scroll;
+    height: 25rem;
+
+    box-shadow: inset 0 25px 15px -15px #adadad, inset 0 -15px 15px -15px #adadad;
+    &::-webkit-scrollbar{
+        width: 0 !important;
+        height: 0;
+        display: none !important;
+        background: transparent;
+        }
 }
 .tech__block{
     width: 293px;
