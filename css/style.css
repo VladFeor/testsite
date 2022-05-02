@@ -228,7 +228,7 @@ h6 {
 }
 .main {
   padding-top: 10rem;
-  height: 90vh;
+  height: 1000px;
 }
 .main--less {
   height: 1500px;
@@ -317,7 +317,7 @@ h6 {
 .title__news--hiden {
   color: #FCFCFF;
   position: absolute;
-  top: 45px;
+  top: 46px;
   left: -422px;
 }
 .sub__title__news {
@@ -340,7 +340,7 @@ h6 {
 }
 .text__absolute {
   left: 0;
-  top: 45px;
+  top: 46px;
   color: #FCFCFF;
 }
 .photo__news {
@@ -680,7 +680,7 @@ h6 {
   position: absolute;
   left: -10.66rem;
   top: 8rem;
-  width: 150%;
+  width: 250%;
   font-size: 9.6rem;
   color: #FCFCFF;
   padding-right: 2rem;
