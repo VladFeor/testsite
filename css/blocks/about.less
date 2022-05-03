@@ -54,3 +54,46 @@
     top: 50px;
     left: 45px;
 }
+.chatac{
+    position: absolute;
+    top: 7px;
+    left: 35px;
+    &--two{
+        position: absolute;
+        top: 53px;
+        left: 3px;
+    }
+}
+
+.character{
+    &:hover
+        .chatac{
+            animation-duration: 1s;
+            animation-name: heand;
+            animation-iteration-count:infinite;
+            animation-direction:alternate;
+            animation-timing-function:linear;
+    }
+    &:hover
+        .chatac--two{
+            animation-duration: .5s;
+            animation-name: twoheand;
+            animation-iteration-count:infinite;
+            animation-direction:alternate;
+            animation-timing-function:linear;
+    }
+}
+@keyframes heand{
+    0%{
+        // top: 0;
+    }
+    100%{
+        transform: rotate(5deg);
+    }
+}
+@keyframes twoheand{
+    
+    100%{
+        top: 45px;
+    }
+}

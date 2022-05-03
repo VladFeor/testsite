@@ -349,7 +349,6 @@ h6 {
   position: relative;
   overflow: hidden;
   margin-left: 28rem;
-  background-image: url(/img/monitor2.png);
 }
 .two__news {
   margin-top: 9.66rem;
@@ -435,6 +434,40 @@ h6 {
   top: 50px;
   left: 45px;
 }
+.chatac {
+  position: absolute;
+  top: 7px;
+  left: 35px;
+}
+.chatac--two {
+  position: absolute;
+  top: 53px;
+  left: 3px;
+}
+.character:hover .chatac {
+  animation-duration: 1s;
+  animation-name: heand;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+.character:hover .chatac--two {
+  animation-duration: 0.5s;
+  animation-name: twoheand;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes heand {
+  100% {
+    transform: rotate(5deg);
+  }
+}
+@keyframes twoheand {
+  100% {
+    top: 45px;
+  }
+}
 .ad {
   margin-top: 6.66rem;
   margin-top: 3.3rem;
@@ -503,6 +536,22 @@ h6 {
   position: absolute;
   top: 0;
   right: 1rem;
+  transition: 100s;
+}
+.bottle {
+  animation-duration: 1s;
+  animation-name: bottle;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes bottle {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -20px;
+  }
 }
 .case {
   align-items: center;
@@ -534,9 +583,27 @@ h6 {
 .two {
   top: 78px;
   right: 0rem;
+  animation-duration: 1.5s;
+  animation-name: addes;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes addes {
+  0% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(-3deg);
+  }
 }
 .three {
   top: 100px;
+  animation-duration: 1.5s;
+  animation-name: addes;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
 }
 .stuff__filter {
   margin-top: 6rem;
