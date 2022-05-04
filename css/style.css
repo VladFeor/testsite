@@ -86,7 +86,8 @@ h6 {
   margin: 0 auto;
 }
 .conteiner--more {
-  max-width: 1280px;
+  width: 400%;
+  max-width: 1500px;
 }
 .conteiner--footer {
   position: relative;
@@ -742,6 +743,7 @@ h6 {
 }
 .team__conteiner {
   justify-content: center;
+  margin-top: 1.5rem;
 }
 .ourteam {
   position: absolute;
@@ -751,7 +753,7 @@ h6 {
   font-size: 9.6rem;
   color: #FCFCFF;
   padding-right: 2rem;
-  z-index: 1;
+  z-index: 0;
 }
 .slider {
   z-index: 10;
@@ -759,12 +761,21 @@ h6 {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  overflow: hidden    ;
+  overflow: hidden;
 }
 .slide {
+  width: 280px;
+  height: 316px;
   transition: 0.3s;
   z-index: 10;
   text-align: center;
+}
+.slid {
+  z-index: 10;
+  height: 100%;
+}
+.main__team {
+  margin-right: 8rem;
 }
 .quote {
   display: block;
@@ -772,7 +783,7 @@ h6 {
   font-weight: 300;
   line-height: 1.46rem;
   color: #FCFCFF;
-  width: 443px;
+  width: 447px;
   text-shadow: #B9C4FF63 0 4px 5px;
   text-align: center;
   margin: 0 auto;
@@ -781,7 +792,7 @@ h6 {
 .quote::before {
   content: '“';
   position: absolute;
-  left: -1.33rem;
+  left: -1.1rem;
   top: 0;
   font-size: 2.33rem;
 }
@@ -840,6 +851,9 @@ h6 {
   position: absolute;
   top: 32px;
   right: 37px;
+}
+.big__slide {
+  width: 400px;
 }
 .teams__every {
   margin-top: 11.86rem;
