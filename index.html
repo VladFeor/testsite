@@ -6,6 +6,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
   <title>BOICH</title>
  </head>
  <body>
@@ -253,34 +257,36 @@
   <div class="team">
     
     <div class="conteiner conteiner--more">
-      <div class="team__conteiner">
-        <div class="slider">
-          <div class="slide">
-            <img src="img/Rectangle 52.png" alt="" class="slid">
-            <div class="quote hiden">Small and diverse teams ensure all skills and expertise are available at every step in the cycle influencing.</div>
-            <div class="name small__name">Joshua Hammilton</div>
-            <div class="profecion">Frotn-end developer with 9 years of experience</div>
+      <div #swiperRef="" class="team__conteiner swiper mySwiper" >
+        <div class="slider swiper-wrapper">
+          <div class="slide swiper-slide big__slide">
+            <img src="img/Rectangle 52.png" alt="" class="big__slide slid">
+            <div class="quote ">Small and diverse teams ensure all skills and expertise are available at every step in the cycle influencing.</div>
+            <div class="name small__name">Nika Jaliam</div>
+            <div class="profecion">Product Designer</div>
           </div>
-          
-          <div class="slide">
-            <img src="img/Rectangle 50.svg" alt="" class="slid">
-            <div class="quote">Small and diverse teams ensure all skills and expertise are available at every step in the cycle influencing.</div>
+          <div class="slide swiper-slide ">
+            <img src="img/Rectangle 51.png" alt="" class="slid ">
+            <div class="quote hiden">Small and diverse teams ensure all skills and expertise are available at every step in the cycle influencing.</div>
             <div class="name ">Joshua Hammilton</div>
             <div class="profecion">Frotn-end developer with 9 years of experience</div>
           </div>
-          <div class="slide">
+          <div class="slide swiper-slide ">
             <img src="img/Rectangle 51.png" alt="" class="slid">
-            <div class="quote hiden">Small and diverse teams ensure all skills and expertise are available at every step in the cycle influencing.</div>
-            <div class="name small__name">Joshua Hammilton</div>
-            <div class="profecion">Frotn-end developer with 9 years of experience</div>
+            <div class="quote hiden">Smal l and diverse teams ensure all skills and expertise are available at every step in the cycle influencing.</div>
+            <div class="name small__name">Peter Walliham</div>
+            <div class="profecion">Front-end developer, team-lead</div>
           </div>
-          <div class="previous button__slider" id="prev">
-            <img src="img/Vector (6).png" alt="">
-          </div>
-          <div class="next button__slider" id="next" >
-            <img src="img/Vector (7).png" alt="">
-          </div>
+          
+          
         </div>
+        <div class="next button__slider " id="next" >
+          <img src="img/Vector (7).png" alt="">
+        </div>
+        <div class="previous button__slider " id="prev">
+          <img src="img/Vector (6).png" alt="">
+        </div>
+        
         <div class="block__button_team">
           <button class="main__button team__button">Our entire team
           <img src="img/Arrow 2.png" alt="" class="arrow">
@@ -509,6 +515,10 @@
     </div>
     
   </div>
+
   <script src="js/burger.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/slider.js"></script>
+
  </body>
 </html>
